@@ -1,15 +1,15 @@
-# Primary Button Component for user interaction by JuYing
+# Primary Button Component for user interaction by MingZhe
 
 ## Installation
 
 ```
-npm i jy-button
+npm i zmz-button
 ```
 
 ### Usage
 
 ```jsx
-import { Button } from 'jy-button';
+import { Button } from 'zmz-button';
 
 function Button() {
   return (
