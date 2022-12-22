@@ -6,7 +6,6 @@
   "keywords": ["react", "component", "ui", "button"],
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "private": "false",
   "files": [ "dist", "README.md" ],
   "repository": {
     "type": "git",
