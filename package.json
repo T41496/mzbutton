@@ -1,0 +1,83 @@
+{
+  "name": "mzbutton",
+  "version": "0.1.0",
+  "description": "Primary Button Component by mz",
+  "author": "MingZhe",
+  "keywords": ["react", "component", "ui", "button"],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": "false",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trendy0413/mzbutton"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src/stories --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "init-msw": "msw init public/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.7",
+    "@storybook/addon-essentials": "^6.5.7",
+    "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-links": "^6.5.7",
+    "@storybook/builder-webpack5": "^6.5.7",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/manager-webpack5": "^6.5.7",
+    "@storybook/node-logger": "^6.5.7",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.7",
+    "@storybook/testing-library": "^0.0.11",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "msw": "^0.42.0",
+    "msw-storybook-addon": "^1.6.3",
+    "prop-types": "^15.8.1",
+    "webpack": "^5.73.0"
+  }
+}
