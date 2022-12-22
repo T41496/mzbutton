@@ -4,7 +4,8 @@ require("core-js/modules/es.object.assign.js");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Button = void 0;
+exports.default = void 0;
+var _react = _interopRequireDefault(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 require("./button.css");
 const _excluded = ["primary", "backgroundColor", "size", "label"];
@@ -24,7 +25,7 @@ const Button = _ref => {
     } = _ref,
     props = _objectWithoutProperties(_ref, _excluded);
   const mode = primary ? 'my-button--primary' : 'my-button--secondary';
-  return /*#__PURE__*/React.createElement("button", _extends({
+  return /*#__PURE__*/_react.default.createElement("button", _extends({
     type: "button",
     className: ['my-button', "my-button--".concat(size), mode].join(' '),
     style: backgroundColor && {
@@ -32,7 +33,6 @@ const Button = _ref => {
     }
   }, props), label);
 };
-exports.Button = Button;
 Button.propTypes = {
   /**
    * Is this the principal call to action on the page?
@@ -61,3 +61,5 @@ Button.defaultProps = {
   size: 'medium',
   onClick: undefined
 };
+var _default = Button;
+exports.default = _default;

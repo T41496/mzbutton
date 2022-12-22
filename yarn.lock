@@ -10387,6 +10387,17 @@
   "resolved" "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz"
   "version" "0.0.8"
 
+"mz-btn@^0.1.0":
+  "integrity" "sha512-AB9RhjrJzDYATgBbyRR24xe5ix2PhciW9Yaz3FCk34drZpdOzU7TcnmDE74uUm+n2jiCyAmSfUjARBWR4elTNA=="
+  "resolved" "https://registry.npmjs.org/mz-btn/-/mz-btn-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@babel/polyfill" "^7.12.1"
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "web-vitals" "^2.1.0"
+
 "nanoid@^3.3.1", "nanoid@^3.3.4":
   "integrity" "sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.4.tgz"
@@ -12173,7 +12184,7 @@
     "node-dir" "^0.1.10"
     "strip-indent" "^3.0.0"
 
-"react-dom@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.1.0", "react-dom@>= 16.8.6":
+"react-dom@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@>= 16.8.6":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -12229,7 +12240,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
-"react-scripts@>=5.0.0", "react-scripts@5.0.1":
+"react-scripts@>=5.0.0":
   "integrity" "sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ=="
   "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
   "version" "5.0.1"
@@ -15259,6 +15270,31 @@
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
+
+"zm-button@^0.1.0":
+  "integrity" "sha512-q2ndU5L+N672hoGBki3bfc+NFWVkchHzMkGtTBeQDFfCuLlCmNKMZ05+vztd67RxZ8pY8XYdzCGvfV6JBhH0vQ=="
+  "resolved" "https://registry.npmjs.org/zm-button/-/zm-button-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@babel/polyfill" "^7.12.1"
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "mz-btn" "^0.1.0"
+    "web-vitals" "^2.1.0"
+
+"zmz-button@^0.1.0":
+  "integrity" "sha512-nIzbiOAPZ6RWERfnXg7bhdtANA0tJwN4cX6FyVtmLPu1UJqAzFcA3wof7Yb0l5jt/B+WksDoc7Sv4W676ZJTkQ=="
+  "resolved" "https://registry.npmjs.org/zmz-button/-/zmz-button-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "@babel/polyfill" "^7.12.1"
+    "@testing-library/jest-dom" "^5.14.1"
+    "@testing-library/react" "^13.0.0"
+    "@testing-library/user-event" "^13.2.1"
+    "mz-btn" "^0.1.0"
+    "web-vitals" "^2.1.0"
+    "zm-button" "^0.1.0"
 
 "zwitch@^1.0.0":
   "integrity" "sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw=="
